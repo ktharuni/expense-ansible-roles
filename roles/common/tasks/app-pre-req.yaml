@@ -15,8 +15,8 @@
     dest: "{{ app_location }}"
     remote_src: yes
 
-- name: extract the code
-  ansible.builtin.unarchive:
-    src: "/tmp/{{ component }}.zip" #by default ansible thinks this is in ansible server
-    dest: "{{ app_location }}"
-    remote_src: yes
+#- name: extract the code
+ # ansible.builtin.unarchive:
+ #   src: "/tmp/{{ component }}.zip" #by default ansible thinks this is in ansible server
+ #   dest: "{{ app_location }}"
+  #  remote_src: yes
