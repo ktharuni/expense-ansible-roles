@@ -2,6 +2,6 @@
   hosts: mysql
   become: yes #remote server
   vars_files:
-  - /var/expense/credentails_mysql.yaml
+  - /var/expense/credentials_mysql.yaml
   roles:
   - mysql
